@@ -34,6 +34,10 @@ class Button:
     
 # Создание класса для пола
 class Floor(pygame.sprite.Sprite):
+    """
+    Класс, представляющий пол в виде интерфейса в pygame. 
+    """
+    
     def __init__(self, color, width, height, xpos, ypos):
         super().__init__()
         self.image = pygame.Surface([width, height])
